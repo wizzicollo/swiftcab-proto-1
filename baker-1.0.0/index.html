@@ -38,6 +38,30 @@
     </div>
     <!-- Spinner End -->
      
+   <!-- Topbar Start -->
+   <div class="container-fluid top-bar bg-dark text-light px-0 wow fadeIn" data-wow-delay="0.1s">
+    <div class="row gx-0 align-items-center d-none d-lg-flex">
+        <div class="col-lg-6 px-5 text-start">
+            <ol class="breadcrumb mb-0">
+                <small class="text-primary mb-0">Home</small>
+                <!-- <li class="breadcrumb-item"><a class="small text-light" href="#">Home</a></li> -->
+                <!-- <li class="breadcrumb-item"><a class="small text-light" href="#">Career</a></li>
+                <li class="breadcrumb-item"><a class="small text-light" href="#">Terms</a></li>
+                <li class="breadcrumb-item"><a class="small text-light" href="#">Privacy</a></li> -->
+            </ol>
+        </div>
+        <div class="col-lg-6 px-5 text-end">
+            <!-- <small>Follow us:</small> -->
+            <div class="h-100 d-inline-flex align-items-center">
+                <a class="btn-lg-square text-primary border-end rounded-0" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn-lg-square text-primary border-end rounded-0" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn-lg-square text-primary border-end rounded-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn-lg-square text-primary pe-0" href=""><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Topbar End -->
 
 
     <!-- Navbar Start -->
@@ -55,19 +79,19 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav mx-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
+                <!-- <a href="index.html" class="nav-item nav-link active">Home</a> -->
+                <a href="about.html" class="nav-item nav-link">About Us</a>
                 <a href="service.html" class="nav-item nav-link">Services</a>
                 <!-- <a href="product.html" class="nav-item nav-link">Products</a> -->
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu m-0">
                         <a href="team.html" class="dropdown-item">Our Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonials</a>
                         <!-- <a href="404.html" class="dropdown-item">404 Page</a> -->
                     </div>
                 </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
             </div>
             <div class=" d-none d-lg-flex">
                 <div class="flex-shrink-0 btn-lg-square border border-light rounded-circle">
@@ -138,7 +162,7 @@
                     <div class="fact-item bg-light rounded text-center h-100 p-5">
                         <i class="fa fa-certificate fa-4x text-primary mb-4"></i>
                         <p class="mb-2">Years of Service</p>
-                        <h1 class="display-5 mb-0" data-toggle="counter-up">5</h1>
+                        <h1 class="display-5 mb-0" data-toggle="counter-up"> 5</h1>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.3s">
@@ -507,10 +531,74 @@
     </div>
     <!-- Testimonial End -->
 
+    <!-- Contact Start -->
+    <div class="container-xxl py-6">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="text-primary text-uppercase mb-2">// Contact Us</p>
+                <!-- <h1 class="display-6 mb-4">If You Have Any Query, Please Contact Us</h1> -->
+            </div>
+            <div class="row g-0 justify-content-center">
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
+                    <!-- <p class="text-center mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p> -->
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 200px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button class="btn btn-primary rounded-pill py-3 px-5" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Google Map Start -->
+    <div class="container-xxl py-6 px-0 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <p class="text-primary text-uppercase mb-2">// Locate Us</p>
+            <!-- <h1 class="display-6 mb-4">If You Have Any Query, Please Contact Us</h1> -->
+        </div>
+        
+        <iframe class="w-100 mb-n2" style="height: 450px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255282.3586907413!2d36.68257868686788!3d-1.3028602779443763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi!5e0!3m2!1sen!2ske!4v1726656261470!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!-- Google Map End -->
+    <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+        <p class="text-primary text-uppercase mb-2">// Quick Links</p>
+    </div>
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer my-6 mb-0 py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
+         
+                <!-- <h1 class="display-6 mb-4">If You Have Any Query, Please Contact Us</h1> -->
+            </div>
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Address</h4>
@@ -519,6 +607,9 @@
                     <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>swiftcab@gmail.com</p>
                     <small class="far fa-clock text-primary me-2"></small>
                     <small>Mon - Fri : 09.00 AM - 06.00 PM</small>
+<P><small class="far fa-clock text-primary me-2"></small>
+    <small>Sat - Sun : CLOSED</small></P>
+                   
                     <!-- <div class="d-flex pt-2">
                         <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -528,11 +619,13 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <h4 class="text-light mb-4">Pages</h4>
                     <a class="btn btn-link text-primary" href="">About Us</a>
-                    <a class="btn btn-link text-primary" href="">Contact Us</a>
                     <a class="btn btn-link text-primary" href="">Our Services</a>
-                    <a class="btn btn-link text-primary" href="">Support</a>
+                    <a class="btn btn-link text-primary" href="">Our Team</a>
+                    <a class="btn btn-link text-primary" href="">Testimonials</a>
+                    <a class="btn btn-link text-primary" href="">Contact Us</a>
+                 
                 </div> 
 
                 <div class="col-lg-3 col-md-6">
